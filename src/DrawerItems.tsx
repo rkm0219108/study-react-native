@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { View, StyleSheet, Platform } from 'react-native';
 import { Drawer, Switch, TouchableRipple, Text, Colors, useTheme } from 'react-native-paper';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 type Props = {
   toggleTheme: () => void;
@@ -23,9 +24,18 @@ const DrawerItems = ({ toggleTheme, toggleRTL, isRTL, isDarkTheme }: Props) => {
   const _setDrawerItem = (index: number) => setDrawerItemIndex(index);
 
   const { colors } = useTheme();
+  const safeArea = useSafeAreaInsets();
 
   return (
-    <View style={[styles.drawerContent, { backgroundColor: colors.surface }]}>
+    <View
+      style={[
+        styles.drawerContent,
+        {
+          backgroundColor: colors.surface,
+          paddingTop: (styles.drawerContent.paddingTop += safeArea.top),
+        },
+      ]}
+    >
       <Drawer.Section title="Example items">
         {DrawerItemsData.map((props, index) => (
           <Drawer.Item
