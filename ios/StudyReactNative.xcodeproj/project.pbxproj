@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* StudyReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StudyReactNativeTests.m */; };
 		1062F1012B14D95E8BE2ECD2 /* libPods-StudyReactNative-StudyReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF4EF8F0AB3A29090E9955D /* libPods-StudyReactNative-StudyReactNativeTests.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* StudyReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StudyReactNativeTests.m */; };
+		678C7F8F2572346A007B0A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C7F8E2572346A007B0A9F /* AppDelegate.swift */; };
 		7C85DCF3F44EB18EEA68F5E8 /* libPods-StudyReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAF424D6BBF73F874108E55 /* libPods-StudyReactNative-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BBBB939FC35349183DCC2F6E /* libPods-StudyReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA8068E9E80A33B05F6EC92 /* libPods-StudyReactNative.a */; };
@@ -45,11 +42,8 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* StudyReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyReactNativeTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* StudyReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210107C0DE6475C87141A4D9 /* Pods-StudyReactNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyReactNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-StudyReactNative-tvOS/Pods-StudyReactNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		23FD3B94577EE5D15D1BF8B0 /* Pods-StudyReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-StudyReactNative-tvOSTests/Pods-StudyReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* StudyReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StudyReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,8 +51,10 @@
 		2E85F8197C89D3D4B4ED088D /* Pods-StudyReactNative-StudyReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyReactNative-StudyReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-StudyReactNative-StudyReactNativeTests/Pods-StudyReactNative-StudyReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F4C467097CF32B52874C4AC /* Pods-StudyReactNative-StudyReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyReactNative-StudyReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-StudyReactNative-StudyReactNativeTests/Pods-StudyReactNative-StudyReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
 		2FC19466650FA1E1DA3146E0 /* Pods-StudyReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-StudyReactNative-tvOS/Pods-StudyReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		678C7F8D25723469007B0A9F /* StudyReactNative-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudyReactNative-Bridging-Header.h"; sourceTree = "<group>"; };
+		678C7F8E2572346A007B0A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF4EF8F0AB3A29090E9955D /* libPods-StudyReactNative-StudyReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyReactNative-StudyReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8342D0DDDAD918979E3EB6BE /* libPods-StudyReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDA5A045352A4284D985A18 /* Pods-StudyReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyReactNative.debug.xcconfig"; path = "Target Support Files/Pods-StudyReactNative/Pods-StudyReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 		BBA8068E9E80A33B05F6EC92 /* libPods-StudyReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,22 +115,19 @@
 			children = (
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
-			name = "Supporting Files";
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* StudyReactNative */ = {
 			isa = PBXGroup;
 			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				678C7F8E2572346A007B0A9F /* AppDelegate.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				678C7F8D25723469007B0A9F /* StudyReactNative-Bridging-Header.h */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = StudyReactNative;
 			path = StudyReactNative;
 			sourceTree = "<group>";
 		};
@@ -163,7 +156,6 @@
 				C0B91ED0D967E53B1D53AF1D /* Pods-StudyReactNative-tvOSTests.debug.xcconfig */,
 				23FD3B94577EE5D15D1BF8B0 /* Pods-StudyReactNative-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -296,7 +288,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1220;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -634,8 +626,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				678C7F8F2572346A007B0A9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,8 +634,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E85F8197C89D3D4B4ED088D /* Pods-StudyReactNative-StudyReactNativeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -699,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F4C467097CF32B52874C4AC /* Pods-StudyReactNative-StudyReactNativeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "StudyReactNativeTests/Supporting Files/Info.plist";
@@ -732,6 +723,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = StudyReactNative;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG FB_SONARKIT_ENABLED";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyReactNative/StudyReactNative-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -754,6 +747,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = StudyReactNative;
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyReactNative/StudyReactNative-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -925,7 +919,9 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 			};
 			name = Debug;
 		};
